@@ -1,0 +1,114 @@
+:root {
+  --clr-primary: hsl(153, 71%, 59%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-gray: hsl(0, 0%, 85%);
+  --clr-dark: hsl(0, 0%, 8%);
+  --clr-dark-gray: hsl(0, 0%, 14%);
+
+  --font-family-main: "Space Grotesk", Arial, Helvetica, sans-serif;
+  --font-size-h1-XL: clamp(
+    2.5rem,
+    1.7718446601941746rem + 3.1067961165048543vw,
+    5.5rem
+  );
+  --font-size-h2-L: clamp(
+    2rem,
+    1.7572815533980584rem + 1.035598705501618vw,
+    3rem
+  );
+  --font-size-h3-M: 1.5rem;
+  --font-size-p-body: clamp(
+    1rem,
+    0.9696601941747572rem + 0.12944983818770225vw,
+    1.125rem
+  );
+
+  --font-weight-700: 700;
+  --font-weight-500: 500;
+
+  --line-height-h1-XL: 5.5rem;
+  --line-height-h2-L: 3.5rem;
+  --line-height-h3-M: 2rem;
+  --line-height-p-body: 1.75rem;
+
+  --letter-spacing-h1-XL: -2.5px;
+  --letter-spacing-h2-L: -1.5px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-main);
+  background-color: var(--clr-dark);
+  
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  border-bottom: 2px solid var(--clr-primary);
+  font-size: 1rem;
+  font-weight: var(--font-weight-500);
+  color: var(--clr-white);
+  letter-spacing: 2.29px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: ease-in-out 0.3s;
+}
+
+a:hover {
+  color: var(--clr-primary);
+}
+
+h1 {
+  color: var(--clr-white);
+  font-size: 2.5rem;
+  font-size: var(--font-size-h1-XL);
+  font-weight: var(--font-weight-700);
+}
+
+h2 {
+  color: var(--clr-white);
+  font-size: 2rem;
+  font-size: var(--font-size-h2-L);
+  font-weight: var(--font-weight-500);
+}
+
+p {
+  color: var(--clr-gray);
+  font-size: 1rem;
+  font-size: var(--font-size-p-body);
+  line-height: var(--line-height-p-body);
+  text-align: center;
+  max-width: 50ch;
+}
