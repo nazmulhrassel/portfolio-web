@@ -79,6 +79,10 @@ li a:hover {
     hsl(0, 0%, 14%),
     rgba(36, 36, 36, 0.022)
   );
+  width: 174px;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 87px);
 }
 
 .hero-text {
@@ -87,6 +91,7 @@ li a:hover {
   align-items: center;
   justify-content: center;
   gap: 24px;
+  padding-top: 300px;
 }
 .hero-text h1 {
   text-align: center;
@@ -114,7 +119,7 @@ br {
 .gray-circle {
   position: absolute;
   right: -18%;
-  top: 35%;
+  top: 38%;
   overflow: hidden;
 }
 
@@ -147,6 +152,7 @@ br {
 }
 .skill P {
   padding-block-start: 1px;
+  max-width: 100%;
 }
 /* SKILL SECTION END */
 
