@@ -6,7 +6,7 @@
   --clr-dark: hsl(0, 0%, 8%);
   --clr-dark-gray: hsl(0, 0%, 14%);
 
-  --font-family-main: "Space Grotesk", Arial, Helvetica, sans-serif;
+  --font-family-main: 'Space Grotesk', Arial, Helvetica, sans-serif;
   --font-size-h1-XL: clamp(
     2.5rem,
     1.7718446601941746rem + 3.1067961165048543vw,
