@@ -93,6 +93,7 @@
     object-position: bottom;
     background-color: var(--clr-dark-gray);
   }
+
   .hero-content {
     justify-content: space-between;
     align-items: flex-start;
@@ -291,6 +292,7 @@
     width: 444px;
     height: 720px;
   }
+
   .hero-text {
     gap: 43px;
     padding-bottom: 120px;
@@ -320,109 +322,104 @@
   }
 
   .gray-circle {
-    right: 41%;
-    top: 66%;
-  }
-  /* HERO SECTION END */
-
-  /* SKILL SECTION START */
-  .skills {
-    padding-top: 100px;
-  }
-  .skill-block {
-    padding-block: 72px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    row-gap: 56px;
-  }
-  .Skill h2 {
-    padding-bottom: 14px;
-  }
-  .gray-oval2 {
-    bottom: 15%;
-    right: -25%;
-  }
-  /* SKILL SECTION END */
-
-  /* PROJECT SHOWCASE START */
-  .projects {
-    padding-bottom: 139px;
-  }
-  .project-top {
-    padding-bottom: 80px;
-  }
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    column-gap: 30px;
-  }
-
-  .design-showcase {
-    visibility: hidden;
-  }
-  .design-portfolio {
-    position: relative;
-  }
-  .project-image {
-    /* position: relative; */
-  }
-
-  .design-showcase-desktop {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out;
-    width: 540px;
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.75);
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  .pro-showcase {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-  }
-
-  .project-image:hover {
-    .design-showcase-desktop {
-      opacity: 1;
-      visibility: visible;
-      scale: 1/1;
-    }
-  }
-
-  .project-image:hover {
-    .pro-showcase {
-      opacity: 1;
-    }
-  }
-  /* PROJECT SHOWCASE END */
-
-  /* CONTACT SECTION START*/
-  .contact {
-    padding-block: 84px;
-  }
-
-  .contact-section {
-    /* align-items: baseline; */
-  }
-  .contact-title p {
-    max-width: 38ch;
-    text-align: left;
-  }
-  .gray-oval3 {
-    left: -21%;
-    bottom: 10%;
+    right: 41.5%;
+    top: 63%;
   }
 }
+/* HERO SECTION END */
+
+/* SKILL SECTION START */
+.skills {
+  padding-top: 100px;
+}
+.skill-block {
+  padding-block: 72px;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  row-gap: 56px;
+}
+.Skill h2 {
+  padding-bottom: 14px;
+}
+.gray-oval2 {
+  bottom: 15%;
+  right: -25%;
+}
+/* SKILL SECTION END */
+
+/* PROJECT SHOWCASE START */
+.projects {
+  padding-bottom: 139px;
+}
+.project-top {
+  padding-bottom: 80px;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  column-gap: 30px;
+}
+
+.design-showcase {
+  visibility: hidden;
+}
+.design-portfolio {
+  position: relative;
+}
+
+.design-showcase-desktop {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+  width: 540px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pro-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.project-image:hover {
+  .design-showcase-desktop {
+    opacity: 1;
+    visibility: visible;
+    scale: 1/1;
+  }
+}
+
+.project-image:hover {
+  .pro-showcase {
+    opacity: 1;
+  }
+}
+/* PROJECT SHOWCASE END */
+
+/* CONTACT SECTION START*/
+.contact {
+  padding-block: 84px;
+}
+
+.contact-title p {
+  max-width: 38ch;
+  text-align: left;
+}
+.gray-oval3 {
+  left: -21%;
+  bottom: 10%;
+}
+
 /* CONTACT SECTION END */
 
 @media (width >= 1400px) {
@@ -479,6 +476,7 @@
   }
   .gray-circle {
     right: 39%;
+    top: 63%;
   }
 
   .gray-oval2 {
@@ -486,6 +484,13 @@
   }
   .gray-oval3 {
     left: -7%;
+  }
+}
+
+@media (width >= 1740px) {
+  .gray-circle {
+    right: 36%;
+    top: 62%;
   }
 }
 @media (width >= 1920px) {
