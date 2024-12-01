@@ -1,4 +1,4 @@
-@import url("./css/global/fonts.css");
+@import url("../global/fonts.css");
 :root {
   --clr-primary: hsl(153, 71%, 59%);
   --clr-white: hsl(0, 0%, 100%);
